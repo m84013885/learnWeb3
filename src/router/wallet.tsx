@@ -46,7 +46,6 @@ export const WalletPage = () => {
     getData()
     setState(StateType.FINISH)
     setTx(tx.hash)
-
   }
   return (
     <div style={{ padding: 30 }}>
