@@ -19,6 +19,7 @@ export const Index = () => {
     <div style={{ padding: 30 }}>
       <p>整个项目使用了主要展示</p>
       <ul style={{ marginLeft: 20, marginTop: 20 }}>
+        <li><Link to={'/trcWallet'}>trc钱包</Link></li>
         <li><Link to={'/create'}>创建钱包</Link></li>
         <li><Link to={'/import'}>导入钱包</Link></li>
         <ul style={styles}>
